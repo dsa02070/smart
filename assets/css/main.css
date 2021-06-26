@@ -1,0 +1,37 @@
+/* main scss */
+#main_banner .slick_wrap {
+  position: relative;
+}
+
+#main_banner .slick_wrap .slick img {
+  width: 100%;
+}
+
+#main_banner .slick_wrap .slick .text {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  z-index: 4400;
+}
+
+#main_banner .slick_wrap .slick-arrow {
+  position: absolute;
+  width: 40px;
+  height: 75px;
+  text-indent: -9999px;
+  background-size: contain;
+  z-index: 350;
+  cursor: pointer;
+}
+
+#main_banner .slick_wrap .slick-prev {
+  top: 40%;
+  left: 20px;
+  background: url("../img/main/btn_prev.png");
+}
+
+#main_banner .slick_wrap .slick-next {
+  top: 40%;
+  right: 20px;
+  background: url("../img/main/btn_next.png");
+}

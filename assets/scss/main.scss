@@ -1,0 +1,56 @@
+/* main scss */
+
+#main_banner {
+    .slick_wrap {
+        position: relative;
+
+        .slick {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .text {
+                position: absolute;
+                top: 30%;
+                right: 11%;
+                color: #fff;
+
+                h2 {
+                    font-size: 5vw;
+                    font-weight: bold;
+                    line-height: 6.8vw;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: $titleFontSizeSmall;
+                    line-height: 32px;
+                }
+            }
+        }
+
+        .slick-arrow {
+            position: absolute;
+            width: 40px;
+            height: 75px;
+            text-indent: -9999px;
+            background-size: contain;
+            z-index: 350;
+            cursor: pointer;
+        }
+
+        .slick-prev {
+            top: 40%;
+            left: 20px;
+            background: url('../img/main/btn_prev.png');
+        }
+
+        .slick-next {
+            top: 40%;
+            right: 20px;
+            background: url('../img/main/btn_next.png');
+        }
+    }
+}
