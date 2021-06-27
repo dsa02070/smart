@@ -13,7 +13,8 @@
 - 고정형 / pc
 
 라. 구성
-메인페이지 1페이지
+- 메인페이지 1페이지
+
 
 [noelo Hills 기존 홈페이지 링크] (https://smartzzang.com/)
 
