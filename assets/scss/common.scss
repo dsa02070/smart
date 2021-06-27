@@ -6,7 +6,7 @@
 
 .top_btn : 350;
 header : 300;
-.submenu : 30;
+.submenu : 400;
 .submenu_Bg : 10;
 
 */
@@ -18,14 +18,6 @@ body {
 .inner {
     width: $siteWidth;
     margin: 0 auto;
-}
-
-@media screen and (max-width:1296px) {
-    .inner {
-        width: 100%;
-        padding: 0 30px;
-        box-sizing: border-box;
-    }
 }
 
 .top_btn {
@@ -132,7 +124,7 @@ header {
                     position: absolute;
                     top: 90px;
                     padding: 20px 0 30px;
-                    z-index: 30;
+                    z-index: 400;
 
                     li {
                         width: 140%;
@@ -289,4 +281,21 @@ footer {
 
 .on {
     display: block !important;
+}
+
+// media query
+@media screen and (max-width:1296px) {
+    .inner {
+        min-width: 1265px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:1265px) {
+
+    html,
+    body {
+        min-width: 1265px;
+    }
 }
