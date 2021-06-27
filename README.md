@@ -16,6 +16,6 @@
 - 메인페이지 1페이지
 
 
-[noelo Hills 기존 홈페이지 링크] (https://smartzzang.com/)
+[스마트교복 기존 홈페이지 링크] (https://smartzzang.com/)
 
 개인포트폴리오를 위해 만들어진 사이트 입니다.
