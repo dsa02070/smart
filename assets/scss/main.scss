@@ -266,8 +266,8 @@ section {
 
 // section typeA
 
-#typeA,
-#typeB {
+.typeA,
+.typeB {
     .inner {
         &:after {
             content: '';
@@ -331,7 +331,7 @@ section {
 }
 
 // section typeB
-#typeB {
+.typeB {
     .slide {
         position: relative;
         padding-left: 160px;
@@ -363,7 +363,7 @@ section {
 }
 
 // section typeC
-#typeC {
+.typeC {
     overflow: hidden;
     padding: 0;
     background: #f1f1f1;
@@ -395,7 +395,7 @@ section {
 }
 
 // section typeD
-#typeD {
+.typeD {
     padding: 120px 0;
 
     .title {
@@ -410,7 +410,7 @@ section {
 }
 
 // section typeE
-#typeE {
+.typeE {
     padding: 0;
 
     .inner {

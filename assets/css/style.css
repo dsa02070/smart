@@ -625,15 +625,15 @@ section .btn_black a {
   background-size: cover;
 }
 
-#typeA .inner:after,
-#typeB .inner:after {
+.typeA .inner:after,
+.typeB .inner:after {
   content: '';
   display: block;
   clear: both;
 }
 
-#typeA .slide,
-#typeB .slide {
+.typeA .slide,
+.typeB .slide {
   float: left;
   width: 50%;
   padding-left: 60px;
@@ -641,102 +641,102 @@ section .btn_black a {
           box-sizing: border-box;
 }
 
-#typeA .slide .slide01,
-#typeB .slide .slide01 {
+.typeA .slide .slide01,
+.typeB .slide .slide01 {
   position: relative;
   margin-bottom: 60px;
 }
 
-#typeA .slide .slide01 .swiper-pagination,
-#typeB .slide .slide01 .swiper-pagination {
+.typeA .slide .slide01 .swiper-pagination,
+.typeB .slide .slide01 .swiper-pagination {
   position: absolute;
   top: 62%;
   left: -23%;
 }
 
-#typeA .slide .slide01 .swiper-pagination .swiper-pagination-bullet,
-#typeB .slide .slide01 .swiper-pagination .swiper-pagination-bullet {
+.typeA .slide .slide01 .swiper-pagination .swiper-pagination-bullet,
+.typeB .slide .slide01 .swiper-pagination .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
 }
 
-#typeA .slide .slide01 .swiper-pagination .swiper-pagination-bullet-active,
-#typeB .slide .slide01 .swiper-pagination .swiper-pagination-bullet-active {
+.typeA .slide .slide01 .swiper-pagination .swiper-pagination-bullet-active,
+.typeB .slide .slide01 .swiper-pagination .swiper-pagination-bullet-active {
   background: #222;
 }
 
-#typeA .slide .slide_img,
-#typeB .slide .slide_img {
+.typeA .slide .slide_img,
+.typeB .slide .slide_img {
   margin-bottom: 40px;
 }
 
-#typeA .slide .title h4,
-#typeB .slide .title h4 {
+.typeA .slide .title h4,
+.typeB .slide .title h4 {
   margin-bottom: 20px;
 }
 
-#typeA .slide .title p,
-#typeB .slide .title p {
+.typeA .slide .title p,
+.typeB .slide .title p {
   margin-bottom: 20px;
 }
 
-#typeA .slide .title .btn_white,
-#typeB .slide .title .btn_white {
+.typeA .slide .title .btn_white,
+.typeB .slide .title .btn_white {
   display: inline-block;
   font-size: 1.4rem;
   border: 1px solid #666;
   padding: 14px 40px;
 }
 
-#typeA .img_area,
-#typeB .img_area {
+.typeA .img_area,
+.typeB .img_area {
   float: left;
   width: 50%;
 }
 
-#typeB .slide {
+.typeB .slide {
   position: relative;
   padding-left: 160px;
 }
 
-#typeB .slide .slide01 {
+.typeB .slide .slide01 {
   margin-top: 180px;
 }
 
-#typeB .slide .slide01 .swiper-pagination {
+.typeB .slide .slide01 .swiper-pagination {
   top: 68%;
   left: -10%;
 }
 
-#typeB .slide .slide01 .swiper-pagination .swiper-pagination-bullet {
+.typeB .slide .slide01 .swiper-pagination .swiper-pagination-bullet {
   background: #d1d1d1;
 }
 
-#typeB .slide .slide01 .swiper-pagination .swiper-pagination-bullet-active {
+.typeB .slide .slide01 .swiper-pagination .swiper-pagination-bullet-active {
   background: #fff;
 }
 
-#typeB .slide > .title {
+.typeB .slide > .title {
   position: absolute;
   top: -120px;
   left: 27px;
   z-index: 40;
 }
 
-#typeC {
+.typeC {
   overflow: hidden;
   padding: 0;
   background: #f1f1f1;
 }
 
-#typeC .video {
+.typeC .video {
   float: left;
   position: relative;
   width: 50%;
   padding-top: 40%;
 }
 
-#typeC .video iframe {
+.typeC .video iframe {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -744,33 +744,33 @@ section .btn_black a {
   left: 0;
 }
 
-#typeC .title {
+.typeC .title {
   float: left;
   padding-top: 10%;
   padding-left: 10%;
 }
 
-#typeC .title p {
+.typeC .title p {
   margin: 0;
 }
 
-#typeD {
+.typeD {
   padding: 120px 0;
 }
 
-#typeD .title {
+.typeD .title {
   margin-bottom: 60px;
 }
 
-#typeD .slide02 img {
+.typeD .slide02 img {
   width: 100%;
 }
 
-#typeE {
+.typeE {
   padding: 0;
 }
 
-#typeE .inner {
+.typeE .inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -783,19 +783,19 @@ section .btn_black a {
   border-top: 1px solid #ccc;
 }
 
-#typeE .inner a {
+.typeE .inner a {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
 }
 
-#typeE .inner a .box h5 {
+.typeE .inner a .box h5 {
   font-size: 2rem;
   font-weight: 500;
   margin: 24px 0 16px;
 }
 
-#typeE .inner a .box p {
+.typeE .inner a .box p {
   font-size: 1.6rem;
   font-weight: 300;
 }
