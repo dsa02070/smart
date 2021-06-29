@@ -129,7 +129,7 @@ header {
                     li {
                         width: 140%;
                         line-height: 30px;
-                        margin-bottom: 10px;
+                        padding-bottom: 10px;
                     }
 
                     a {
@@ -144,6 +144,23 @@ header {
                 }
             }
         }
+
+        // nav hover submenu bg on
+        .submenu_bg {
+            position: fixed;
+            display: none;
+            top: 90px;
+            left: 0;
+            right: 0;
+            height: 300px;
+            background: rgb(223, 236, 253);
+            z-index: 10;
+        }
+    }
+
+    // jquery add class
+    .on {
+        display: block !important;
     }
 
 
@@ -151,6 +168,7 @@ header {
     .search {
         flex-basis: 250px;
         height: 40px;
+        line-height: 40px;
         margin-top: 20px;
         padding: 0 10px;
         box-sizing: border-box;
@@ -167,24 +185,17 @@ header {
 
         input {
             width: 160px;
-            line-height: 40px;
             padding-left: 10px;
             box-sizing: border-box;
 
             &::placeholder {
                 color: $fontColorHover;
             }
-        }
-    }
 
-    .submenu_bg {
-        position: absolute;
-        display: none;
-        top: 90px;
-        width: 100%;
-        height: 300px;
-        background: rgb(223, 236, 253);
-        z-index: 10;
+            &:-ms-input-placeholder {
+                color: $fontColorHover;
+            }
+        }
     }
 }
 
@@ -279,9 +290,6 @@ footer {
     }
 }
 
-.on {
-    display: block !important;
-}
 
 // media query
 @media screen and (max-width:1296px) {

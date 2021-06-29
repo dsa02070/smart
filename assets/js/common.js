@@ -22,7 +22,7 @@ $(function () {
         $('.submenu').addClass('on')
         $('.submenu_bg').addClass('on')
     })
-    $('header').mouseleave(function () {
+    $('header nav').mouseleave(function () {
         $('.submenu').removeClass("on");
         $('.submenu_bg').removeClass('on')
     })
